@@ -1,9 +1,8 @@
 def is_palindrome(x):
-    # Negative numbers are not palindromes
+    
     if x < 0:
         return False
     
-    # Convert the number to a string and check if it's equal to its reverse
     str_x = str(x)
     return str_x == str_x[::-1]
 
